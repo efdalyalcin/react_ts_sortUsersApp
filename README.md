@@ -29,23 +29,19 @@ These components were integral in saving development time and ensuring a consist
 The project's styling is based on the style folder from the [Search Bar Component](https://efdalyalcin.github.io/react_ts-search-user-app/) and the iteration components. While this approach may include some unnecessary variables, it provided a quick and efficient way to maintain a cohesive visual design.
 
 ## How to Use
+To use on gh-pages: [link](https://efdalyalcin.github.io/react_ts_sortUsersApp/)
 
 To use this project locally, follow these steps:
-
 1. Clone the repository to your local machine using Git:
-
 - `git clone https://github.com/efdalyalcin/react_ts_sortUsersApp.git`
 
 2. Navigate to the project's root directory:
-
 - `cd react_ts_sortUsersApp`
 
 3. Install the project dependencies using npm:
-
 - `npm i`
 
 4. Start the development server:
-
 - `npm start`
 
 ---
