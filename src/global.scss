@@ -1,0 +1,17 @@
+@import './styles/utils';
+
+.App {
+  @extend %minMaxWidthPage;
+  @extend %center;
+
+  padding-block: $pageBlockPaddingM;
+  padding-inline: $pageSidePaddingL;
+
+  @include mediaMaxWidth($mobileWidth) {
+    padding-inline: $pageSidePaddingM;
+  }
+
+  @include mediaMaxWidth($extraSmallWidth) {
+    padding-inline: $pageSidePaddingS;
+  }
+}

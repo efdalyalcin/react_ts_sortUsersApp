@@ -1,0 +1,34 @@
+@import '../../styles/utils';
+
+.UsersTable {
+  margin-top: $marginBtwElements;
+
+  &__heading {
+    display: grid;
+    grid-template-columns: $userTableGridColumns;
+    grid-template-rows: 1;
+
+    padding-block: $componentInnerPaddingR;
+    border-bottom: 1px solid $c-primary;
+    background-color: $c-blue100;
+    border-radius: $buttonBorderRadius;
+
+    @include mediaMaxWidth($mobileWidth) {
+      grid-template-columns: $userTableGridColumnsSmall;
+    }
+  }
+
+  &__head-item {
+    text-align: center;
+  }
+
+  &__table {
+    margin-top: $marginBtwElements;
+  }
+
+  &__pagination {
+    margin-top: $marginBtwElements;
+    display: flex;
+    justify-content: center;
+  }
+}

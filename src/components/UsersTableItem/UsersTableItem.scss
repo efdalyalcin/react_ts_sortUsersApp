@@ -1,0 +1,18 @@
+@import '../../styles/utils';
+
+.UsersTableItem {
+  display: grid;
+  grid-template-columns: $userTableGridColumns;
+  grid-template-rows: 1;
+
+  padding-block: $componentInnerPaddingS;
+
+  @include mediaMaxWidth($mobileWidth) {
+    grid-template-columns: $userTableGridColumnsSmall;
+  }
+
+  &__item {
+    height: 2rem;
+    text-align: center;
+  }
+}

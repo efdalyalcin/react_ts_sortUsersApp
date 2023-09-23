@@ -1,0 +1,20 @@
+@import '../styles/utils';
+
+.Home {
+  &__sort-button {
+    width: max-content;
+    margin-top: $marginBtwElements;
+
+    @extend %center;
+  }
+
+  &__sort-option {
+    appearance: none;
+    text-align: center;
+
+    padding: $componentInnerPaddingS;
+    border: 2px solid $c-primary;
+    border-radius: $buttonBorderRadius;
+    color: $c-dark;
+  }
+}

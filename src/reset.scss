@@ -1,0 +1,48 @@
+@import './styles/utils';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+button {
+  margin: 0;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+button {
+  border: unset;
+  padding: unset;
+  background-color: unset;
+  font-family: unset;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+input {
+  padding: 0;
+  border: 1px solid $c-gray400;
+  border-radius: 8px;
+}
+
+input:focus {
+  border: 1px solid $c-primary;
+}

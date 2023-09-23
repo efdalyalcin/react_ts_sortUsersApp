@@ -1,0 +1,56 @@
+// width
+$maxWidth: 1360px;
+$tabletWidth: 1068px;
+$mobileWidth: 768px;
+$extraSmallWidth: 440px;
+$minWidth: 360px;
+
+// color
+$c-dark: #1c1c1c;
+$c-gray600: #505050;
+$c-gray500: #8b96a5;
+$c-gray400: #bdc4cd;
+$c-gray300: #dee2e7;
+$c-gray200: #eff2f4;
+$c-gray100: #f7fafc;
+$c-blue100: #e3f0ff;
+$c-primary: #0d6efd;
+$c-green200: #c4ffcb;
+$c-green: #00b517;
+$c-orange200: #ffe6bf;
+$c-orange: #ff9017;
+$c-red: #fa3434;
+$c-border: #e0e0e0;
+$c-white: #fff;
+
+// transition
+$transitionTime: 0.5s;
+
+// buttons
+$buttonSize: 32px;
+$buttonBorderRadius: 8px;
+
+// border radius
+$containerBorderRadius: 8px;
+
+// font-size
+$fontH2: 32px;
+$fontLarge: 20px;
+$fontRegular: 16px;
+$fontSmall: 12px;
+$lineHeight: 1.25;
+
+// paddings
+$pageBlockPaddingM: 24px;
+$pageSidePaddingL: 40px;
+$pageSidePaddingM: 24px;
+$pageSidePaddingS: 12px;
+$componentInnerPaddingR: 16px;
+$componentInnerPaddingS: 8px;
+
+// margins
+$marginBtwElements: 24px;
+
+// grid
+$userTableGridColumns: 20% 5% 40% 15% 20%;
+$userTableGridColumnsSmall: 50% 10% 40%;
