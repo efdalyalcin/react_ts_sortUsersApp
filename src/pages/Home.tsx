@@ -23,7 +23,9 @@ export default function Home() {
   }, []);
 
   const filterUsers = (users: IUser[]) => {
-    return users.filter((user) => user.name.includes(searchInput));
+    return users.filter((user) =>
+      user.name.toLowerCase().includes(searchInput.toLowerCase())
+    );
   };
 
   // filter the data by name

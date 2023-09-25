@@ -44,7 +44,7 @@ export default function SearchBar({
           SORT BY:
         </label>
         <select
-          onChange={(e) => handleCategoriesChange(e)}
+          onChange={handleCategoriesChange}
           id="sortTypeId"
           className="SearchBar__select"
         >
