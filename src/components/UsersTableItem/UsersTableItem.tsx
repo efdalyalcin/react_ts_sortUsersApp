@@ -7,14 +7,16 @@ type Props = {
 };
 
 export default function UsersTableItem({ user, windowWidth }: Props) {
+  const userItems: (keyof IUser)[] = Object.keys(user) as (keyof IUser)[];
+
   if (windowWidth > 768)
     return (
       <div className="UsersTableItem">
-        <p className="UsersTableItem__item">{user.name}</p>
-        <p className="UsersTableItem__item">{user.age}</p>
-        <p className="UsersTableItem__item">{user.email}</p>
-        <p className="UsersTableItem__item">{user.country}</p>
-        <p className="UsersTableItem__item">{user.phone}</p>
+        {userItems.map((userItem) => (
+          <p className="UsersTableItem__item" key={userItem}>
+            {user[userItem]}
+          </p>
+        ))}
       </div>
     );
 
