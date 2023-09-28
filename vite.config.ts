@@ -6,6 +6,11 @@ export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
     base: '/',
+    test: {
+      globals: true,
+      environment: 'jsdom',
+      css: false,
+    },
   };
 
   if (command !== 'serve') {

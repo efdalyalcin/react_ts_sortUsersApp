@@ -3,8 +3,8 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
+    <div className="App" data-testid="app">
+      <Home data-testid="home" />
     </div>
   );
 }
